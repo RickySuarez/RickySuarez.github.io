@@ -5,22 +5,51 @@ body {
     border-radius: 50%;
     width: 150px;
     margin: auto;
+    padding-top: 10%;
+    display: block;
+}
+
+.github-logo{
+    width: 100px;
+    margin: auto;
+    padding-top: 2.5%;
     display: block;
 }
 
 .row {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
     display: flex;
+    
   }
   
   .column1 {
-    flex: 33.33%;
+    flex: 20%;
+    column-fill: auto;
+    background-color: rgb(54, 53, 53);
   }
 
   .column2 {
-    flex: 66.66%;
+    flex: 80%;
+    background-color: rgb(0, 0, 0);
+    column-fill: auto;
   }
 
   .image-text {
     text-align: center;
     font-size: 25px;
+    color: skyblue;
+  }
+
+  .projects-header {
+    text-align: center;
+    color: skyblue;
+  }
+
+  .contact {
+    background-color: gray;
   }
