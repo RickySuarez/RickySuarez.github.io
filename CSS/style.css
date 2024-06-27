@@ -73,13 +73,13 @@ body {
 
 .email {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.0vw;
     color: white;
 }
 
 .github-link {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.0vw;
     padding-bottom: 2.5%;
 }
 
