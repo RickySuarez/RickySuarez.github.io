@@ -13,7 +13,10 @@ body {
     width: 100px;
     margin: auto;
     padding-top: 2.5%;
-    display: block;
+    padding-bottom: 2.5%;
+    padding-left: 3.5%;
+    filter: invert(100);
+    
 }
 
 .row {
@@ -24,7 +27,6 @@ body {
     right: 0;
     overflow: auto;
     display: flex;
-    
   }
   
   .column1 {
@@ -51,5 +53,68 @@ body {
   }
 
   .contact {
-    background-color: gray;
+    margin:auto;
+    width: 75%;
+    border-radius: 25px;
+    background-color: rgb(73, 73, 73);
   }
+
+.email-header {
+    width: 50px;
+    padding-top: 2.5%;
+    padding-left: 3.5%;
+    color: white;
+}
+
+.email {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.github-link {
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+a {
+    color: white
+}
+
+
+.row2 {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    gap: 30px;
+}
+
+.column21 {
+    flex: 33.33%;
+    column-fill: auto;
+    margin:auto;
+    width: 75%;
+    border-radius: 25px;
+    background-color: rgb(73, 73, 73);
+    
+}
+
+.column22 {
+    flex: 33.33%;
+    column-fill: auto;
+    margin:auto;
+    width: 75%;
+    border-radius: 25px;
+    background-color: rgb(73, 73, 73);
+    
+}
+
+.column23 {
+    flex: 33.33%;
+    column-fill: auto;
+    margin:auto;
+    width: 75%;
+    border-radius: 25px;
+    background-color: rgb(73, 73, 73);
+    
+}
